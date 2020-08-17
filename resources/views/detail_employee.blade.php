@@ -26,7 +26,8 @@
                   
                          <tr>
                             <th>Avatar</th>  
-                            <th><img src="248.jpg" height="100" width="100"></th>
+                           
+                            <td><img src="{{ URL::to('/public/avatar/'.$employee->e_avatar)}}" height="100" width="100" class="img-thumbnail"></td>
 
                        </tr>
                 
