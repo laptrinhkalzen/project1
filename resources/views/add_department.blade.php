@@ -8,7 +8,7 @@
                 <div class="page-title-box">
                     <div class="row align-items-center">
                         <div class="col-md-8">
-                            <h4 class="page-title m-0">Thêm phòng ban</h4>
+                            <h4 class="page-title m-0">Thêm phòng</h4>
                          	<?php
                             $message= Session::get('message');
                             if($message){
